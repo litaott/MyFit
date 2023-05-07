@@ -60,6 +60,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="login"
+        android:textSize="20sp"
         android:layout_gravity="center"
         android:onClick="login"
         />
@@ -69,14 +70,18 @@
         android:layout_height="50dp"
         />
 
-    <Button
+    <TextView
         android:id="@+id/to_register"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Have no account? Register here."
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:textColorHint="blue"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"
+        android:textColor="#ff0099ff"
         android:onClick="toRegister"
+        android:gravity="center"
         />
 
 
